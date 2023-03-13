@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>MCA Metal Company</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,6 +16,10 @@
     <style>
         body {
             background: #000000 url(img/metal-lines-3840x2400-fondo-body.jpg);
+        }
+
+        header {
+            height: 250px;
         }
 
 
@@ -33,10 +37,19 @@
         }
 
         h1 {
-            color: white;
+            padding-top: 50px;
+            color: rgba(22, 45, 197, 0.445);
             font-style: italic;
             font-size: 60px;
             text-align: center;
+            text-shadow: 2px 2px #75cede;
+        }
+
+        .blockquote-footer {
+            font-size: 30px;
+            color: #000000;
+            text-shadow: 2px 1px #b3aeae;
+            font-weight: 500;
         }
 
         .masthead {
@@ -44,12 +57,34 @@
             background: #1c1c1c url(img/metal-lines-3840x2400-fondo-presenta.jpg);
         }
 
+        @media (max-width:1400px) {
+
+
+            h1 {
+
+                padding-top: 20px;
+            }
+
+        }
+
         @media (max-width:995px) {
 
             .masthead {
-            margin-top: 10%;
-            
-        }
+                margin-top: 15%;
+
+            }
+
+            h1 {
+
+                font-size: 40px;
+
+            }
+
+            .blockquote-footer {
+                padding-top: 15px;
+                font-size: 20px;
+
+            }
         }
     </style>
 
@@ -59,17 +94,16 @@
 <body id="page-top">
 
     <!-- Navigation-->
+
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top border-bottom border-2" id="mainNav">
         <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top">ISW</a>
+            <a class="navbar-brand" href="#page-top">MCA-HOME</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="javascript:void(0)">SERVICES</a>
                     </li>
@@ -90,27 +124,28 @@
         </div>
     </nav>
 
-    <header>
-        <!-- Encabezado inicio -->
 
-        <header class="masthead container-md">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-baseline">
-                        <h1 class="display-1">MCA Metal Company</h1>
-                        <figcaption class="blockquote-footer">
-                            Allow us to <cite title="Source Title">serve you</cite>
-                        </figcaption>
-                    </div>
+    <!-- Encabezado inicio -->
+
+    <header class="masthead container-md">
+        <div class="container px-4 px-lg-5 ">
+            <div class="row gx-4 gx-lg-5 align-items-center justify-content-center text-center">
+                <div class="col-lg-8 align-self-baseline">
+                    <h1 class="display-1">MCA Metal Company</h1>
+                    <figcaption class="blockquote-footer">
+                        Allow us to <cite title="Source Title">serve you</cite>
+                    </figcaption>
                 </div>
             </div>
-        </header>
-
-        <!-- Encabezado inicio -->
-
+        </div>
     </header>
 
+    <!-- Encabezado final -->
+
+
+    <!-- main inicio -->
     <main class="container-md">
+
         <!-- Carousel inicio -->
 
         <div id="principalCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -148,6 +183,8 @@
         <!-- Carousel final -->
 
     </main>
+    <!-- main final -->
+
     <footer>
         <!-- place footer here -->
         <nav class="navbar fixed-bottom navbar-dark bg-dark">
